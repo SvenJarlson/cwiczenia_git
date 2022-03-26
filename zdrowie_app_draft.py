@@ -1,10 +1,7 @@
-# program liczy prawdopodobnieństwo, że pacjent będzie miał problemy z sercem
-# program bierze pod uwagę stres, ruch i dietę
+from cwiczenia_git.stres import *
 
-stres = poziomstresu(rodzaj_pracy, tiki)
+rodzaj_pracy = int(input("Jaką pracę wykonujesz? Podaj odpowiednią liczbę: \n Praca umysłowa:1 \n Praca fizyczna na wysokości:2 \n Praca fizyczna pod ziemią:3 \n Praca fizyczna inna:4 \n Praca z dziećmi:5 \n Praca z chorymi:6 \n Inne:7 \n"))
+tiki = int(input("Czy posiadasz tiki nerwowe? Wpisz 1 jeśli tak, 0 jeśli nie \n"))
 
-ruch = ileruchu(zwykly_ruch, ile_cwiczen)
-
-dieta = jakadieta(wege, tlusto)
-
-#wyliczenie ryzyka problemów z sercem
+s = stres(rodzaj_pracy, tiki)
+print(s)
