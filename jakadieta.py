@@ -1,4 +1,4 @@
-def jakadieta :
+def jakadieta:
     dieta=str(input('Jak się odżywiasz? Zdrowo , Normarlnie , czy Źle'))
     if dieta == 'Zdrowo':
         pkt=pkt*0.5
