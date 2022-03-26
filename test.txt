@@ -1,1 +1,3 @@
 pierwszy test
+
+druga zmiana
